@@ -18,14 +18,14 @@
 - **Codi font**: arxiu de text legible en llenguatge de programació.
 - **Codi objecte**: arxiu binari no executable
 - **Codi executable**: arxiu binari executable.
-
+ -- -
 ### Cicle de vida del Software
 #### Ingenieria de Software
 _Disciplica que estudia els principis, metologíes per al desenvolupament i manteniment de sistemes de software_
 
 - **desenvolupament de software**: tèrmit més apropiat que "_ingeniería de software_" ja que aquest implica nivells de rigor i proba, processos no apropiats per a tot tipus de desenvolupament de software.
 - **Ingeniería del software**: estudia creació de software fiable, de calitat donant software operacional i de manteniment.
- -- -
+
 #### Desenvolupament de software
 **_Fases princiapls_**
 1. **Anàlisis**
