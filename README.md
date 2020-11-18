@@ -1,3 +1,4 @@
+
 # Entorns de desenvolupament
 ## Tipus de software
 - **Sistema** (S.O, drivers)
@@ -92,4 +93,44 @@ _Disciplica que estudia els principis, metologíes per al desenvolupament i mant
     - **Prototip evolutiu**: S'utilitza el prototip que s'ha donat com bo i apartir d'ahí es continua millorant.
 - **Model evolutiu o incremental**
   - **Model en espiral**: Es fa revisió de tot cada vegada que s'acaba una fase principal, es a dir si s'acaba la codificació es torna a veure l'anàlisis i el disseny.(_Es revisa tot el que s'ha fet_)
-  - **Metodologíes àgils**: Es treballent en grups diferents, es revisa el que ha fet l'atre persona o persones i es veu si conté errors en cas de tenir s'ha de avisar.
+  - **Metodologíes àgils**: Es treballent en grups diferents, es revisa el que ha fet l'atre persona o persones i es veu si conté errors en cas de tenir s'ha de avisar. 
+  - Tipologies més conegudes: **Kanban**, **Scrum** i **XP(exTeme Programming)**.
+  - ----
+ #### Kanban
+ - També anomenat **Sistema de tarjetes**.
+ - **Controla per demanda** la fabricació dels productes necessaris en catitat/temps.
+ - ----
+ #### Scrum
+ - Model incremental
+ - **Interació** Sprint regulars cada 2, 3 o 4 setmanes.
+ -  Establiment de **objectius prioritzats** a cada interació.
+ - Amb la finalització d'interació s'obté una **entrega utilitzable per al client**.
+- **Rols principals.**
+  - **Product Owner**: veu del client, diu els criteris i aceptació, s'encarrega de que es cumplin.
+  - **Scrum Master**: Motiva, facilita el treball de l'equip i s'encarrega de veure que es següeix la metodologia Scrum.
+  - **Team**: Equip de desenvolupament, auto-organitzacio i multifuncional. Poden ser  entre 6 i 10 membres.
+ -**Artefactes**:
+    - **Product Backlog**: Llista ordenada dels requisits del producte.
+    - **Sprint Backlog**: Llista de requisits del backlog per desenvolupament durant el sprint.
+    - **Increment**: Estat del producte després de cada sprint.
+ - **Events**:
+    - **Sprint**: Event principal, que conté el reste d'events, duració màxima d'un mes.
+    - **Sprint Planning**: Reunió inicial per la planificació del sprint. Max temps: 8hrs.
+    - **Daily Scrum**:  Reunió diària posada en comú per el sprint, duració màxima de 15minuts.
+    - **Scrum Review**: Reunió per evaluar l'increment obtingut, max 4h.
+   - **Scrum Retrospective**: Reunió final per evalució correcte de l'aplicació de metodología Scrum, max: 3hrs.
+   - ----
+#### XP (Programació extrema) :
+- **Disseny sencill**
+- **Millores continues**
+- **Proca i refactorització**
+- **Programa per parelles**
+- **Client s'integra al equip de desenvolupament**
+- **Propietat de codi compartit**
+- **Estàndars de codificació**
+- **40 hrs semanals**
+### Llenguatges de programació
+#### Obtenció de codi executable
+- Codi binari executable tenim dos opcions:
+    - **Compilar**: Càrrega de tots els elements per executar el programa.
+    - **Interpretar**: Càrrega d'un element, per exemple una clase de java
