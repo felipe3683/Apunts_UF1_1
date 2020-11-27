@@ -129,8 +129,70 @@ _Disciplica que estudia els principis, metologíes per al desenvolupament i mant
 - **Propietat de codi compartit**
 - **Estàndars de codificació**
 - **40 hrs semanals**
+- ----
 ### Llenguatges de programació
 #### Obtenció de codi executable
 - Codi binari executable tenim dos opcions:
     - **Compilar**: Càrrega de tots els elements per executar el programa.
     - **Interpretar**: Càrrega d'un element, per exemple una clase de java
+#### Procés de compilació/interpretació
+- ES tracta de dues fases:
+   - Anàlisis lèxic
+   - Anàlisis sintàctic
+- Si no es reconeixen errors, es genera un codi objecte corresponent.
+- Un codi font correcta escrit no vol dir que funcioni com es vol.
+- No es realitza un anàlisis semàntic.
+#### Llenguatges compilats
+- Exemple: C, C++
+- Ventatges: execució molt eficient.
+- Desavantatge: necessari compilar cada vegada que codi font es modificat.
+#### Llenguatges interpretats
+- Exemple: PHP, Javascript
+- Ventatges: el codi s'interpreta directament.
+- Desavantatge: execució menys eficient.
+----
+### Java
+- Llenguatge compilat i interpretat
+- El codi font es compila i s'obté un codi binari intermedi **bytecode**.
+- Pot considerar codi objecte però destinat objecte natiu.
+- Després aquest **bytecode s'interpreta per executar-lo**.
+- **Ventatges:**
+   - Estructurat i Orientat a Objectes(EOO).
+   - Relativament fàcil d'aprendre.
+   - Bona documentació i base d'usuaris.
+- **Desavantatge:**
+   - Menys eficient que els llenguatges compilats
+-----
+### Tipos
+- **Declaratius:** Mostren el resultat sense identificat els pasos.
+- **Imperatius:** Mostren els pasos a seguir per obtenir el resultat.
+#### Declaratius
+- Es divideixen:
+    - Lògics:** utilitzen regles, exemple: Prolog
+    - **Funcionals:** utilitzen sentencies, exemple: Lisp, Haskell
+    - **Algebraics:** utilitzen sentencies, exemple: SQL
+- Normalment son llenguatges interpretats
+#### Imperatius
+- Es dividideixen:
+    - **Estructurats:** C
+    - **Orientats a objectes:** Java
+    - **Multiparadigma:** C++, Javascript
+- Els llenguatghes orientats a objectes també son estructurats.
+- Molts son compilats.
+#### Tipus segons nivell d'abstracció
+- **Baix nivell:** ensamblador
+- **Alt nivell:** C++, Java
+#### Evolució
+- Codi binari
+- Ensamblador
+- Llenguantge estructurats
+- Llenguatge orientats a objectes
+-----
+### Criteris de selecció:
+- **Camp d'aplicació:** En que aquesta mes especialitzat el llenguatge a triar
+- **Experiència prèvia:** Si s'ho has fet servir abans.
+- **Eines de desenvolupament:** Que eines et pot proporcionar a l'hora de treballar-hi.
+- **Base d'usuaris:** Tipus de base de dades que ocupa.
+- **Re usabilitat:** Possibilitat de tornar a utilitzar alguna cosa ja creat.
+- **Portabilitat:** Si funciona en altres sistemes, exemple: de pc a mòbil.
+- **Imposició de client:** Si el client exigeix que es treballi en un determinat programa.
