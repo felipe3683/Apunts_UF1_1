@@ -164,7 +164,7 @@ _Disciplica que estudia els principis, metologíes per al desenvolupament i mant
 - **Desavantatge:**
    - Menys eficient que els llenguatges compilats
 -----
-### Tipos
+### Tipus
 - **Declaratius:** Mostren el resultat sense identificat els pasos.
 - **Imperatius:** Mostren els pasos a seguir per obtenir el resultat.
 #### Declaratius
